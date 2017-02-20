@@ -24,7 +24,7 @@ FlyObj.loadImages = function( imgSrc, callback ) {
 	
   imgSrc.forEach(function(src) {
     var img = new Image();
-    img.src = '../imgs/' + src + '.png';
+    img.src = 'imgs/' + src + '.png';
 
     img.addEventListener('load', function() {
       count++;
